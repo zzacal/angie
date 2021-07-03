@@ -1,0 +1,16 @@
+
+<figure class="figure">
+    <img src="@src" class="figure-img img-fluid rounded w-100" alt="@alt">
+    <figcaption class="figure-caption">@caption</figcaption>
+</figure>
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string src { get; set; }
+    [Parameter]
+    public string alt { get; set; }
+    [Parameter]
+    public string caption { get; set; }
+}
