@@ -4,9 +4,7 @@
 name: Azure App Service - angieslife(Production), Build and deploy DotnetCore app
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
 
 jobs:
   build-and-deploy:
